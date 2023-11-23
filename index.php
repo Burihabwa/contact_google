@@ -109,7 +109,7 @@
             <form action="insert.php" method="POST" class="needs-validation" enctype="multipart/form-data"  novalidate>
             <div class="row g-2 ml-5 pl-5 mr-5 pr-5">
                 <div  id="selectedBanner" class="mt-3">
-                  <img style="border-radius: 50%; width: 150px; height: 150px;" src="imag/esp.jpeg" alt="">
+                  <img style="border-radius: 50%; border: 1px solid cyan; padding: 3px; width: 150px; height: 150px;" src="imag/user.png" alt="">
                 </div>
                 <label for="img" style="margin-left: 120px; margin-top: -40px;"><i style="border-radius:50%" class='fa fa-edit fa-2x bg-Info p-2'></i></label>
                 <div class="form-group">
@@ -205,7 +205,7 @@
               e.target.result +
               "\" data-file='" +
               f.name +
-              "' style='border-radius: 50%;' class='avatar rounded lg' alt='Category Image' height='150px' width='150px'>";
+              "' style=' border: 1px solid cyan; border-radius: 50%; padding: 3px;' class='avatar rounded lg' alt='Category Image' height='150px' width='150px'>";
             selDiv.html(html);
           };
           reader.readAsDataURL(f);

@@ -22,7 +22,7 @@ function handleFileSelect(e) {
         e.target.result +
         "\" data-file='" +
         f.name +
-        "' style='border-radius: 50%;' class='avatar rounded lg' alt='Category Image' height='150px' width='150px'>";
+        "' style='border-radius: 50%; border: 1px solid cyan; padding: 3px;' class='avatar rounded lg' alt='Category Image' height='150px' width='150px'>";
       selDiv.html(html);
     };
     reader.readAsDataURL(f);
